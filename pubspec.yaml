@@ -1,0 +1,31 @@
+name: skillgap_ai
+description: "A new Flutter project for SkillGap AI."
+
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.2.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.2
+  file_picker: ^8.0.0
+  http: ^0.13.6
+  shared_preferences: ^2.2.2
+  url_launcher: ^6.2.5
+  fl_chart: ^0.66.0
+  firebase_core: ^2.24.2
+  firebase_auth: ^4.15.3
+  google_sign_in: ^6.1.6
+  speech_to_text:
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+
+flutter:
+  uses-material-design: true

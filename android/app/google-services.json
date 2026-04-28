@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "511289500594",
+    "project_id": "skillgap-f6249",
+    "storage_bucket": "skillgap-f6249.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:511289500594:android:1c193cfdf149316d93baab",
+        "android_client_info": {
+          "package_name": "com.example.skillgap_ai"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "511289500594-23sr4raeuqimkngsit7lg7b8an6o001g.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.skillgap_ai",
+            "certificate_hash": "dfe8d18d995f08850d22642814ce6bf7f16c43db"
+          }
+        },
+        {
+          "client_id": "511289500594-v4sufdupujntlg6ji2thpleif2th26pp.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyACKTn1da3VWqyFHMrJRp4i7avR5Xnctas"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "511289500594-v4sufdupujntlg6ji2thpleif2th26pp.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
