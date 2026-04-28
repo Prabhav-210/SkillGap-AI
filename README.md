@@ -1,17 +1,33 @@
-# skillgap_ai
+SkillGap AI
 
-A new Flutter project.
+Problem
+Students often lack structured career guidance and do not know what skills are required to achieve their goals.
 
-## Getting Started
+Solution
+SkillGap AI is an AI-powered platform that analyzes user goals, identifies skill gaps, and generates personalized, step-by-step career roadmaps.
 
-This project is a starting point for a Flutter application.
+Features
+AI-powered career guidance chatbot
+Skill gap analysis
+Weekly roadmap generation
+Resume (CV) analysis
+Progress tracking
+Voice input support
+Chat history & personalization
+🛠 Tech Stack
+Flutter (Dart)
+Firebase Authentication
+Gemini API
+SharedPreferences
+speech_to_text
+File Picker
 
-A few resources to get you started if this is your first Flutter project:
+How to Run
+Clone the repository
+Add your Gemini API key
+Run:
+flutter pub get
+flutter run
 
-- [Learn Flutter](https://docs.flutter.dev/get-started/learn-flutter)
-- [Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Flutter learning resources](https://docs.flutter.dev/reference/learning-resources)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+SDG Goal
+Supports SDG 4: Quality Education by helping users gain skills and career direction.
