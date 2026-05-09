@@ -1191,5 +1191,12 @@ Resources:
     );
   }
 
+  @override
+  void dispose() {
+    _textController.dispose();
+    _scrollController.dispose();
+    _speech.stop();
+    super.dispose();
+  }
   }
 

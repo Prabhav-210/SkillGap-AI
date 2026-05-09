@@ -251,6 +251,14 @@ class _RoadmapDetailScreenState extends State<RoadmapDetailScreen> {
 
   @override
   Widget build(BuildContext context) {
+    if (widget.roadmapIndex >= allRoadmaps.length) {
+      // Roadmap was deleted while this screen was open
+      WidgetsBinding.instance.addPostFrameCallback((_) {
+        if (mounted) Navigator.pop(context);
+      });
+      return const Scaffold(body: Center(child: CircularProgressIndicator()));
+    }
+
     final roadmap = allRoadmaps[widget.roadmapIndex];
     final tasks = roadmap['tasks'] as List<dynamic>;
 

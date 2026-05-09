@@ -108,6 +108,12 @@ class _SettingsScreenState extends State<SettingsScreen> {
               title: const Text('Log Out', style: TextStyle(color: Colors.red, fontWeight: FontWeight.w600, fontSize: 16)),
               onTap: () async {
                 await AuthService().logout();
+                if (mounted) {
+                  Navigator.of(context).pushAndRemoveUntil(
+                    MaterialPageRoute(builder: (context) => const LoginScreen()),
+                    (route) => false,
+                  );
+                }
               },
             ),
             const SizedBox(height: 40),
